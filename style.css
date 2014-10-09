@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great|Loved+by+the+King);
+
+body {
+    background-color: #1a1a1a;
+    
+    width:100%;
+    padding:0;
+    margin:0 auto;
+    
+    
+    font-family: Calibri, 'Lucida Grande', 'Lucida Sans', Ubuntu, sans-serif;
+    color: #999;
+    
+    max-width: 100%;
+    width:600px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    padding:0;
+    
+    text-align:center;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Fredericka the Great', serif;
+
+    font-size: 100px;
+    position:relative;
+    
+    width: 2.7em;
+    margin: 0.5em auto;
+}
+
+.coloured, h1, a {
+        color: #e5373b;
+}
+
+h1 .body {
+    font-size: 0.5em;
+    position:absolute;    
+}
+
+h1 .body.left {
+    top: -0.8em;
+    left: 0em;
+    
+    -webkit-transform: rotate(-7deg);
+    -moz-transform:    rotate(-7deg);
+    -ms-transform:     rotate(-7deg);
+    -o-transform:      rotate(-7deg);
+    transform:         rotate(-7deg);
+}
+
+h1 .body.right {
+    top:0.7em;
+    right: 0em;
+    
+    -webkit-transform: rotate(7deg);
+    -moz-transform:    rotate(7deg);
+    -ms-transform:     rotate(7deg);
+    -o-transform:      rotate(7deg);
+    transform:         rotate(7deg);
+}
+
+h2,h3,h4,h5,h6, .body{
+    font-size: 30px;
+    font-family: 'Loved by the King', cursive;
+    color: #e6e6e6;
+}
+
+.focus {
+    font-family: 'Loved by the King', cursive;
+    font-size:25px;
+    text-align:center;
+}
+
+[contenteditable] {
+    display: inline-block;
+    min-width: 0.25ex;
+}
+
+[contenteditable]:focus{
+    outline: #e5373b 5px auto;
+}
+
+::selection {
+	background: #e5373b;
+	}
+::-moz-selection {
+	background: #e5373b;
+}
+
+li {
+    list-style: none;
+    text-indent: -1.25em;
+}
+li:before {
+    margin-right: 0.1em;
+    content: "\b7";
+    font-size:4em;
+    line-height: 0em;
+
+    color: #e5373b;
+    font-family: 'Fredericka the Great', serif;
+    vertical-align: middle;
+}
